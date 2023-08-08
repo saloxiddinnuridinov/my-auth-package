@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace My\Auth\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\ValidatorResponse;
