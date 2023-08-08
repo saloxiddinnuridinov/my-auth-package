@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\API\V1\Student;
+namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\ValidatorResponse;
@@ -8,7 +8,7 @@ use App\Models\Student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
-class AuthStudentController extends Controller
+class AuthController extends Controller
 {
     function __construct()
     {
