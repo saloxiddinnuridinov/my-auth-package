@@ -1,0 +1,15 @@
+{
+  "name": "my/auth",
+  "description": "Custom authentication package",
+  "authors": [
+    {
+      "name": "Salohiddin",
+      "email": "nuridinovsaloxiddin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "My\\Auth\\": "src/"
+    }
+  }
+}
