@@ -19,3 +19,15 @@
 ```
 composer update
 ```
+
+# app.php
+### config/app.php providers => [
+    ....
+    My\Auth\MyAuthServiceProvider::class,
+]
+### kiritish kerak!
+
+```
+My\Auth\MyAuthServiceProvider::class,
+```
+
