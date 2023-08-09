@@ -13,5 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('refresh', [\My\Auth\Http\Controllers\AuthController::class, 'refresh']);
+Route::post('logout', [\My\Auth\Http\Controllers\AuthController::class, 'logout']);
 Route::post('register', [\My\Auth\Http\Controllers\AuthController::class, 'register']);
 Route::post('login', [\My\Auth\Http\Controllers\AuthController::class, 'login']);
