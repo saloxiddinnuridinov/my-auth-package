@@ -13,6 +13,6 @@ class MyAuthServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // Paketni boshlash va ro'yxatga olish
+        $this->loadRoutesFrom(__DIR__.'/routes/api.php');
     }
 }
